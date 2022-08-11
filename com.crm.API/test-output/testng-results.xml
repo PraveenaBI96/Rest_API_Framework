@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[====Connected to data base====]]>
+    </line>
+    <line>
+      <![CDATA[TY_PROJ_2208]]>
+    </line>
+    <line>
+      <![CDATA[===Data Verified in DB===]]>
+    </line>
+    <line>
+      <![CDATA[===Data not present in DB===]]>
+    </line>
+    <line>
+      <![CDATA[==== Connection closed====]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-11T11:07:18 IST" name="Default suite" finished-at="2022-08-11T11:07:21 IST" duration-ms="2588">
+    <groups>
+    </groups>
+    <test started-at="2022-08-11T11:07:18 IST" name="Default test" finished-at="2022-08-11T11:07:21 IST" duration-ms="2588">
+      <class name="EndToEndScenarios.CreateProjectAndVerifyInDataBase">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:EndToEndScenarios.CreateProjectAndVerifyInDataBase@1da2cb77]" started-at="2022-08-11T11:07:17 IST" name="bsConfig" finished-at="2022-08-11T11:07:18 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Connected to data base====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method signature="createProjectAndVerifyinDB()[pri:0, instance:EndToEndScenarios.CreateProjectAndVerifyInDataBase@1da2cb77]" started-at="2022-08-11T11:07:18 IST" name="createProjectAndVerifyinDB" finished-at="2022-08-11T11:07:21 IST" duration-ms="2563" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TY_PROJ_2208]]>
+            </line>
+            <line>
+              <![CDATA[===Data Verified in DB===]]>
+            </line>
+            <line>
+              <![CDATA[===Data not present in DB===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectAndVerifyinDB -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:EndToEndScenarios.CreateProjectAndVerifyInDataBase@1da2cb77]" started-at="2022-08-11T11:07:21 IST" name="asConfig" finished-at="2022-08-11T11:07:21 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==== Connection closed====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- EndToEndScenarios.CreateProjectAndVerifyInDataBase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
